@@ -35,9 +35,9 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Support</h4>
-            <p className="text-muted-foreground text-sm mb-4">
-              If you enjoy reading The Magpies Journal, consider supporting the work with a coffee.
+            <h4 className="font-semibold text-foreground mb-4">Connect</h4>
+            <p className="text-muted-foreground text-sm">
+              Thank you for reading and being part of this journey of discovery and reflection.
             </p>
           </div>
         </div>

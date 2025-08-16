@@ -56,8 +56,8 @@
     --shadow-coffee: 0 8px 25px -8px hsl(25 75% 47% / 0.3);
     
     /* Typography */
-    --font-heading: 'Inter', system-ui, sans-serif;
-    --font-body: 'Inter', system-ui, sans-serif;
+    --font-heading: 'Kalam', cursive;
+    --font-body: 'Kalam', cursive;
     
     /* Border radius */
     --radius: 0.75rem;
