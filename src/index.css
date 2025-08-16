@@ -57,7 +57,7 @@
     
     /* Typography */
     --font-heading: 'Kalam', cursive;
-    --font-body: 'Kalam', cursive;
+    --font-body: 'Inter', system-ui, sans-serif;
     
     /* Border radius */
     --radius: 0.75rem;
