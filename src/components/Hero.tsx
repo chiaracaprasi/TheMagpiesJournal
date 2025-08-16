@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@/assets/hero-magpies-photo.jpg";
+import heroImage from "@/assets/hero-magpies-branch.jpg";
 
 const Hero = () => {
   return (
