@@ -24,10 +24,6 @@ const Header = () => {
             >
               About
             </Link>
-            <Button variant="coffee" size="sm" className="ml-4">
-              <Coffee className="w-4 h-4" />
-              Buy me a coffee
-            </Button>
           </nav>
         </div>
       </div>

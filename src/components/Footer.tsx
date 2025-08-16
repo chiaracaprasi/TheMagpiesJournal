@@ -1,4 +1,5 @@
-import { Heart } from "lucide-react";
+import { Heart, Coffee } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
@@ -35,10 +36,14 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Connect</h4>
-            <p className="text-muted-foreground text-sm">
-              Thank you for reading and being part of this journey of discovery and reflection.
+            <h4 className="font-semibold text-foreground mb-4">Support</h4>
+            <p className="text-muted-foreground text-sm mb-4">
+              If you enjoy reading The Magpies Journal, consider supporting the work.
             </p>
+            <Button variant="coffee" size="sm">
+              <Coffee className="w-4 h-4" />
+              Buy me a coffee
+            </Button>
           </div>
         </div>
         
