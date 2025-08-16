@@ -17,16 +17,6 @@ const BlogPost = ({ title, excerpt, date, readTime, category, slug, featured = f
   return (
     <Card className={`card-shadow overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 ${featured ? 'border-primary/20' : ''}`}>
       <div className="p-6">
-        <div className="flex items-center gap-2 mb-3">
-          <Badge variant="secondary" className="text-xs">
-            {category}
-          </Badge>
-          {featured && (
-            <Badge variant="default" className="text-xs">
-              Featured
-            </Badge>
-          )}
-        </div>
         
         <Link to={`/post/${slug}`}>
           <h3 className={`font-bold text-foreground hover:text-primary transition-colors mb-3 ${featured ? 'text-xl' : 'text-lg'}`}>
