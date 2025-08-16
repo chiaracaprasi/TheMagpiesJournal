@@ -34,7 +34,7 @@ const blogPosts = {
       
       <p>If you enjoy what you read here, consider supporting this work with a coffee. It means the world to me and helps keep the words flowing.</p>
     `,
-    date: "March 15, 2024",
+    date: "Aug 8, 2025",
     readTime: "5 min read",
     category: "Welcome"
   },
@@ -127,7 +127,7 @@ const BlogPostPage = () => {
               />
             </Card>
             
-            <div className="text-center border-t border-border pt-8">
+            {/* <div className="text-center border-t border-border pt-8">
               <p className="text-muted-foreground mb-4">
                 Enjoyed this post? Support The Magpies Journal with a coffee.
               </p>
@@ -135,7 +135,7 @@ const BlogPostPage = () => {
                 <Coffee className="w-5 h-5" />
                 Buy me a coffee
               </Button>
-            </div>
+            </div> */}
           </div>
         </article>
       </main>

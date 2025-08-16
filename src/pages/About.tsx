@@ -49,20 +49,20 @@ const About = () => {
             </Card>
             
             <div className="text-center space-y-4">
-              <Button variant="coffee" size="lg" className="text-lg px-8 py-3">
+              {/* <Button variant="coffee" size="lg" className="text-lg px-8 py-3">
                 <Coffee className="w-5 h-5" />
                 Buy me a coffee
               </Button>
-              
+               */}
               <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
                 <div className="flex items-center gap-1">
                   <Mail className="w-4 h-4" />
                   Get in touch
                 </div>
-                <div className="flex items-center gap-1">
+                {/* <div className="flex items-center gap-1">
                   <Heart className="w-4 h-4" />
                   Share the love
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
