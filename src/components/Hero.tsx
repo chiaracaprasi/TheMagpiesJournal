@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
-import heroImage from "@/assets/hero-aussie-magpies-gumtree.jpg";
+import heroImage from "@/assets/hero-magpies-photo.jpg";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight font-handwritten">
           The Magpies Journal
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto leading-relaxed">
